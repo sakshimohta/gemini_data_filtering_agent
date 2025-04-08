@@ -10,7 +10,7 @@ def main():
     """Directly test and print outputs from specific functions."""
     try:
 
-        client = genai.Client(api_key="AIzaSyDElOEWRYQZObsWhQMDUAcNFqoGX7Qwils")
+        client = genai.Client(api_key="YOUR_API_KEY")
 
         functions = [get_dummy_employee_data_sql, get_dummy_employee_data_json, get_dummy_employee_data_text]
         selected_function = random.choice(functions)  
