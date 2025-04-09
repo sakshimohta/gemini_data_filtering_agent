@@ -11,7 +11,7 @@ from data_processing import (
 def main():
     """Directly test and print outputs from specific functions."""
     try:
-        genai.configure(api_key="AIzaSyDElOEWRYQZObsWhQMDUAcNFqoGX7Qwils")
+        genai.configure(api_key="API_KEY_Placeholder")
         model = genai.GenerativeModel("gemini-1.5-flash")
 
         functions = [
